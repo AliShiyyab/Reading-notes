@@ -68,3 +68,58 @@ Operator	|   Example     |	Same As
 /=          |	x /= y      |	x = x / y
 %=          |	x %= y      |	x = x % y
 **=	        |   x **= y     |	x = x ** y
+
+
+# JQuery
+
+**jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.**
+
+## jQuery Syntax
+The jQuery syntax is tailor-made for selecting HTML elements and performing some action on the element(s).
+
+Basic syntax is: $(selector).action()
+
+* A $ sign to define/access jQuery
+* A (selector) to "query (or find)" HTML elements
+* A jQuery action() to be performed on the element(s)
+
+## jQuery Selectors
+>jQuery selectors allow you to select and manipulate HTML element(s).
+
+>jQuery selectors are used to "find" (or select) HTML elements based on their name, id, classes, types, attributes, values of attributes and much more. It's based on the existing CSS Selectors, and in addition, it has some own custom selectors.
+
+>All selectors in jQuery start with the dollar sign and parentheses: $().
+
+>The element Selector
+>The jQuery element selector selects elements based on the element name.
+
+>You can select all <p> elements on a page like this:
+
+>$("p")
+
+## What are Events?
+All the different visitors' actions that a web page can respond to are called events.
+
+An event represents the precise moment when something happens.
+
+>Examples:
+* moving a mouse over an element
+* selecting a radio button
+* clicking on an element
+* The term "fires/fired" is often used with events. Example: 
+   * "The keypress event is fired, the moment you press a key".
+
+Here are some common DOM events:
+
+Mouse Events	|Keyboard Events	|Form Events|	Document/Window Events
+---------- | ------------- | ----------- | -------------
+click|	keypress|	submit|	load
+dblclick|	keydown|	change|	resize
+mouseenter|	keyup	|focus|	scroll
+mouseleave|	 |	blur|	unload
+
+
+## jQuery Syntax For Event Methods
+In jQuery, most DOM events have an equivalent jQuery method.
+
+To assign a click event to all paragraphs on a page, you can do this:
